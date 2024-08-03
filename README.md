@@ -1,6 +1,7 @@
 # BSBR-Sentinel-2L2A
-
-A set of scripts for preprocessing Sentinel-2 Level-2A remote sensing data for use in monitoring the ecosystems of the Black Sea Biosphere Reserve.
+***
+A set of scripts for preprocessing Sentinel-2 Level-2A remote sensing data for use in monitoring the ecosystems of the Black Sea Biosphere Reserve
+---
 
 Due to the similarity of natural conditions and the common geological past, the entire territory of the Lower Dnieper terrace-delta plain is considered part of the Black Sea Biosphere Reserve region. This region is quite large and is covered by three adjacent Sentinel-2 remote sensing data tiles (T36TUS, T36TVS, and T36TWS), which creates certain inconveniences when analyzing these satellite images within the framework of monitoring the dynamics of the region's natural and anthropogenic ecosystems. To overcome these inconveniences, a set of scripts for preprocessing remote sensing data was developed at the Black Sea Biosphere Reserve.
 
@@ -12,9 +13,11 @@ The script mergeS2.sh performs the second stage of remote sensing data preproces
 
 The script vrtBuilderS2.sh creates virtual rasters with various combinations of the merged spectral channels obtained in the second stage of remote sensing data preprocessing.
 
-This repository is part of the methodological support for the ecosystem monitoring framework of the Black Sea Biosphere Reserve and adjacent non-reserve territories within the Nature Chronicles of the Black Sea Biosphere Reserve.
-
-Набір скриптів для попередньої підготовки даних дистанційного зондування Sentinel-2 рівня обробки L2A для використання їх у моніторингу екосистем Чорноморського біосферного заповідника.
+_**This repository is part of the methodological support for the ecosystem monitoring framework of the Black Sea Biosphere Reserve and adjacent non-reserve territories within the Nature Chronicles of the Black Sea Biosphere Reserve.**_
+<br />
+***
+Набір скриптів для попередньої підготовки даних дистанційного зондування Sentinel-2 рівня обробки L2A для використання їх у моніторингу екосистем Чорноморського біосферного заповідника
+---
 
 За подібністю природних умов та спільністю геологічного минулого до регіону Чорноморського біосферного заповідника відноситься вся територія Нижньодніпровської терасово-дельтової рівнини. Цей регіон досить великий і покривається трьома сусідніми тайлами даних дистанційного зондування Sentinel-2 (T36TUS, T36TVS та T36TWS), що створює певні незручності при аналізі цих супутникових знімків в рамках моніторингу динаміки природних і антропогенних екосистем регіону. Для подолання цих незручностей у Чорноморському біосферному заповіднику розробили набір скриптів для попередньої підготовки даних дистанційного зондування.
 
@@ -26,4 +29,4 @@ This repository is part of the methodological support for the ecosystem monitori
 
 Скрипт vrtBuilderS2.sh — створює віртуальні растри з різними комбінаціями склеєних спектральних каналів, отриманих на другому етапі попередньої підготовки даних дистанційного зондування.
 
-Цей репозиторій є частиною методологічного забезпечення системи моніторингу екосистем Чорноморського біосферного заповідника та прилеглих територій, що не входять до складу заповідника, в рамках Літопису природи Чорноморського біосферного заповідника.
+_**Цей репозиторій є частиною методологічного забезпечення системи моніторингу екосистем Чорноморського біосферного заповідника та суміжних територій, що не входять до складу заповідника, в рамках Літопису природи Чорноморського біосферного заповідника.**_
