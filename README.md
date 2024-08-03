@@ -7,7 +7,7 @@ Due to the similarity of natural conditions and the common geological past, the 
 
 The repository contains 3 scripts that preprocess Sentinel-2A and Sentinel-2B Level-2A remote sensing data for use in monitoring natural and anthropogenic ecosystems in the Black Sea Biosphere Reserve region of the National Academy of Sciences of Ukraine.
 
-The script cropS2.sh performs the first stage of preprocessing, which involves cropping remote sensing data scenes along the boundaries of the Black Sea Biosphere Reserve region. To ensure the correct operation of this script, place the spectral channel files B02, B03, B04, B05, B06, B07, B08, B08A, B11, B12 from each of the three tiles - T36TUS, T36TVS, and T36TWS (a total of 30 files in jp2 format) into the working directory.
+The script cropS2.sh performs the first stage of preprocessing, which involves cropping remote sensing data scenes along the boundaries of the Black Sea Biosphere Reserve region. To ensure the correct operation of this script, place the spectral channel files B02, B03, B04, B08 (with resolution 10 m/pixel) and the spectral channel files B05, B06, B07, B08A, B11, B12 (with resolution 20 m/pixel) from each of the three tiles - T36TUS, T36TVS, and T36TWS (a total of 30 files in jp2 format) into the working directory.
 
 The script mergeS2.sh performs the second stage of remote sensing data preprocessing, which involves channel-wise merging of the individual channels cropped to the boundaries of the reserve region from the three tiles (T36TUS, T36TVS, and T36TWS) that fully cover the reserve region.
 
@@ -23,7 +23,7 @@ _**This repository is part of the methodological support for the ecosystem monit
 
 Репозиторій містить 3 скрипти, що здійснюють попередню підготовку даних дистанційного зондування Sentinel-2A та Sentinel-2B рівня обробки L2A до застосування у моніторингу природних та антропогенних екосистем у регіоні Чорноморського біосферного заповідника НАН України.
 
-Скрипт cropS2.sh — здійснює перший етап підготовки, який полягає у обрізанні сцен даних дистанційного зондування по межах регіону Чорноморського біосферного заповідника. Для коректної роботи цього скрипта у робочу директорію слід помістити файли спектральних каналів B02, B03, B04, B05, B06, B07, B08, B08A, B11, B12 з кожного із трьох тайлів - T36TUS, T36TVS, and T36TWS (всього 30 файлів у форматі jp2).
+Скрипт cropS2.sh — здійснює перший етап підготовки, який полягає у обрізанні сцен даних дистанційного зондування по межах регіону Чорноморського біосферного заповідника. Для коректної роботи цього скрипта у робочу директорію слід помістити файли спектральних каналів B02, B03, B04 та B08 (із роздільністю 10 м/піксель) та файли спектральних каналів B05, B06, B07, B08A, B11, B12 (із роздільністю 20 м/піксель) з кожного із трьох тайлів - T36TUS, T36TVS, and T36TWS (всього 30 файлів у форматі jp2).
 
 Скрипт mergeS2.sh — здійснює другий етап підготовки даних дистанційного зондування, який полягає у поканальному склеюванні отриманих на попередньому етапі окремих обрізаних по межі регіону заповідника каналів з трьох тайлів (T36TUS, T36TVS та T36TWS), що повністю покривають регіон заповідника.
 
