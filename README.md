@@ -13,7 +13,7 @@ The script mergeS2.sh performs the second stage of remote sensing data preproces
 
 The script vrtBuilderS2.sh creates virtual rasters with various combinations of the merged spectral channels obtained in the second stage of remote sensing data preprocessing.
 
-_**This repository is part of the methodological support for the ecosystem monitoring framework of the Black Sea Biosphere Reserve and adjacent non-reserve territories within the Nature Chronicles of the Black Sea Biosphere Reserve.**_
+_**This repository is part of the methodological support for the ecosystem monitoring framework of the Black Sea Biosphere Reserve and adjacent non-reserve territories within the Nature Chronicles of the Black Sea Biosphere Reserve program.**_
 <br />
 ***
 Набір скриптів для попередньої підготовки даних дистанційного зондування Sentinel-2 рівня обробки L2A для використання їх у моніторингу екосистем Чорноморського біосферного заповідника
